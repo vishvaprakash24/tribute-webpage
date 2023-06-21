@@ -263,7 +263,7 @@ footer p{
 }
 
 /* ========== mobile devices ============= */
-@media (max-width: 480px){
+@media only screen and (max-width: 480px){
     .navbar-container{
         display: flex;
         height: 40px;
@@ -383,7 +383,7 @@ footer p{
     }
 }
 
-@media (min-width: 480px) and (max-width: 767px){
+@media only screen and (min-width: 480px) and (max-width: 767px){
     .navbar{
         position: sticky;
         opacity: 0.75;
@@ -507,7 +507,7 @@ footer p{
     }
 }
 
-@media (min-width: 768px) and (max-width: 900px){
+@media only screen and (min-width: 768px) and (max-width: 900px){
     .navbar{
         position: sticky;
         opacity: 0.75;
@@ -646,7 +646,7 @@ footer p{
     }
 }
 
-@media (min-width: 901px) {
+@media only screen and  (min-width: 901px) {
     .navbar{
         position: sticky;
         opacity: 0.75;
